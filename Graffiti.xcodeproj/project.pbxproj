@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38A7B4C80A0429D52D9DF3D6 /* Pods_Graffiti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCFD5294ECB1A67D008E51F /* Pods_Graffiti.framework */; };
+		4BB2A5FFACFF23DE2EADDE77 /* Pods_GraffitiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A27F850F6AD5880318B204 /* Pods_GraffitiTests.framework */; };
+		54FB2B387AE42B0DC847692C /* Pods_GraffitiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2C9537C19C5B4995CE85B2 /* Pods_GraffitiUITests.framework */; };
+		5A2669D71F019E9600BB1262 /* CommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2669D61F019E9600BB1262 /* CommunicationManager.swift */; };
 		5A47B4321F014D630054FA98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A47B4311F014D630054FA98 /* AppDelegate.swift */; };
-		5A47B4341F014D630054FA98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A47B4331F014D630054FA98 /* ViewController.swift */; };
+		5A47B4341F014D630054FA98 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A47B4331F014D630054FA98 /* ChatViewController.swift */; };
 		5A47B4371F014D630054FA98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A47B4351F014D630054FA98 /* Main.storyboard */; };
 		5A47B4391F014D630054FA98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A47B4381F014D630054FA98 /* Assets.xcassets */; };
 		5A47B43C1F014D630054FA98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A47B43A1F014D630054FA98 /* LaunchScreen.storyboard */; };
@@ -34,9 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FCFD5294ECB1A67D008E51F /* Pods_Graffiti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Graffiti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB6A0BCF5C23128836AD049 /* Pods-Graffiti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graffiti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Graffiti/Pods-Graffiti.debug.xcconfig"; sourceTree = "<group>"; };
+		58A27F850F6AD5880318B204 /* Pods_GraffitiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraffitiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2669D61F019E9600BB1262 /* CommunicationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationManager.swift; sourceTree = "<group>"; };
 		5A47B42E1F014D630054FA98 /* Graffiti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graffiti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A47B4311F014D630054FA98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A47B4331F014D630054FA98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A47B4331F014D630054FA98 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		5A47B4361F014D630054FA98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A47B4381F014D630054FA98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A47B43B1F014D630054FA98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		5A47B44D1F014D640054FA98 /* GraffitiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraffitiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A47B4511F014D640054FA98 /* GraffitiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraffitiUITests.swift; sourceTree = "<group>"; };
 		5A47B4531F014D640054FA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F72EA6028C4B908B28220B7 /* Pods-GraffitiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraffitiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraffitiTests/Pods-GraffitiTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D2C9537C19C5B4995CE85B2 /* Pods_GraffitiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraffitiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE707829B1020B320814ACF /* Pods-Graffiti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graffiti.release.xcconfig"; path = "Pods/Target Support Files/Pods-Graffiti/Pods-Graffiti.release.xcconfig"; sourceTree = "<group>"; };
+		A23DD0637CEBEC71F29CB4F4 /* Pods-GraffitiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraffitiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraffitiUITests/Pods-GraffitiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A75F2ECC734F3D40D1A9B860 /* Pods-GraffitiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraffitiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraffitiUITests/Pods-GraffitiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D190F6060310264DDD5D9B55 /* Pods-GraffitiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraffitiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraffitiTests/Pods-GraffitiTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A7B4C80A0429D52D9DF3D6 /* Pods_Graffiti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB2A5FFACFF23DE2EADDE77 /* Pods_GraffitiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54FB2B387AE42B0DC847692C /* Pods_GraffitiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D09E0866E491BBBCE7E0D99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FCFD5294ECB1A67D008E51F /* Pods_Graffiti.framework */,
+				58A27F850F6AD5880318B204 /* Pods_GraffitiTests.framework */,
+				7D2C9537C19C5B4995CE85B2 /* Pods_GraffitiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5A47B4251F014D630054FA98 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				5A47B4451F014D640054FA98 /* GraffitiTests */,
 				5A47B4501F014D640054FA98 /* GraffitiUITests */,
 				5A47B42F1F014D630054FA98 /* Products */,
+				E5099F6D0381E0C42122CEFF /* Pods */,
+				2D09E0866E491BBBCE7E0D99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +127,12 @@
 			isa = PBXGroup;
 			children = (
 				5A47B4311F014D630054FA98 /* AppDelegate.swift */,
-				5A47B4331F014D630054FA98 /* ViewController.swift */,
+				5A47B4331F014D630054FA98 /* ChatViewController.swift */,
 				5A47B4351F014D630054FA98 /* Main.storyboard */,
 				5A47B4381F014D630054FA98 /* Assets.xcassets */,
 				5A47B43A1F014D630054FA98 /* LaunchScreen.storyboard */,
 				5A47B43D1F014D630054FA98 /* Info.plist */,
+				5A2669D61F019E9600BB1262 /* CommunicationManager.swift */,
 			);
 			path = Graffiti;
 			sourceTree = "<group>";
@@ -125,6 +155,19 @@
 			path = GraffitiUITests;
 			sourceTree = "<group>";
 		};
+		E5099F6D0381E0C42122CEFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BB6A0BCF5C23128836AD049 /* Pods-Graffiti.debug.xcconfig */,
+				8BE707829B1020B320814ACF /* Pods-Graffiti.release.xcconfig */,
+				D190F6060310264DDD5D9B55 /* Pods-GraffitiTests.debug.xcconfig */,
+				5F72EA6028C4B908B28220B7 /* Pods-GraffitiTests.release.xcconfig */,
+				A23DD0637CEBEC71F29CB4F4 /* Pods-GraffitiUITests.debug.xcconfig */,
+				A75F2ECC734F3D40D1A9B860 /* Pods-GraffitiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A47B4561F014D640054FA98 /* Build configuration list for PBXNativeTarget "Graffiti" */;
 			buildPhases = (
+				50BD90A193B48857A7A31E45 /* [CP] Check Pods Manifest.lock */,
 				5A47B42A1F014D630054FA98 /* Sources */,
 				5A47B42B1F014D630054FA98 /* Frameworks */,
 				5A47B42C1F014D630054FA98 /* Resources */,
+				A25CC1B7893FCE86DBED215A /* [CP] Embed Pods Frameworks */,
+				0CE855A80CBA6549302F6436 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A47B4591F014D640054FA98 /* Build configuration list for PBXNativeTarget "GraffitiTests" */;
 			buildPhases = (
+				874F97D0FD34A95201919BA1 /* [CP] Check Pods Manifest.lock */,
 				5A47B43E1F014D640054FA98 /* Sources */,
 				5A47B43F1F014D640054FA98 /* Frameworks */,
 				5A47B4401F014D640054FA98 /* Resources */,
+				FE855CBBDF80201B793AD9EC /* [CP] Embed Pods Frameworks */,
+				543B8812B5AB6B7B282AC77A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A47B45C1F014D640054FA98 /* Build configuration list for PBXNativeTarget "GraffitiUITests" */;
 			buildPhases = (
+				FF89FEB8746DAFDC44E4BFFD /* [CP] Check Pods Manifest.lock */,
 				5A47B4491F014D640054FA98 /* Sources */,
 				5A47B44A1F014D640054FA98 /* Frameworks */,
 				5A47B44B1F014D640054FA98 /* Resources */,
+				22FF7BF16AE6D52043145617 /* [CP] Embed Pods Frameworks */,
+				19F5B23C110F4DD8FC42022E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +245,7 @@
 				TargetAttributes = {
 					5A47B42D1F014D630054FA98 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RP7QEAY3Q6;
 						ProvisioningStyle = Automatic;
 					};
 					5A47B4411F014D640054FA98 = {
@@ -254,13 +307,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CE855A80CBA6549302F6436 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Graffiti/Pods-Graffiti-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19F5B23C110F4DD8FC42022E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraffitiUITests/Pods-GraffitiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22FF7BF16AE6D52043145617 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraffitiUITests/Pods-GraffitiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50BD90A193B48857A7A31E45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		543B8812B5AB6B7B282AC77A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraffitiTests/Pods-GraffitiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874F97D0FD34A95201919BA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A25CC1B7893FCE86DBED215A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Graffiti/Pods-Graffiti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE855CBBDF80201B793AD9EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraffitiTests/Pods-GraffitiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF89FEB8746DAFDC44E4BFFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A47B42A1F014D630054FA98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A47B4341F014D630054FA98 /* ViewController.swift in Sources */,
+				5A47B4341F014D630054FA98 /* ChatViewController.swift in Sources */,
 				5A47B4321F014D630054FA98 /* AppDelegate.swift in Sources */,
+				5A2669D71F019E9600BB1262 /* CommunicationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,30 +604,41 @@
 		};
 		5A47B4571F014D640054FA98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB6A0BCF5C23128836AD049 /* Pods-Graffiti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP7QEAY3Q6;
 				INFOPLIST_FILE = Graffiti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.willowTree.Graffiti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5A47B4581F014D640054FA98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE707829B1020B320814ACF /* Pods-Graffiti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP7QEAY3Q6;
 				INFOPLIST_FILE = Graffiti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.willowTree.Graffiti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		5A47B45A1F014D640054FA98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D190F6060310264DDD5D9B55 /* Pods-GraffitiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +653,7 @@
 		};
 		5A47B45B1F014D640054FA98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F72EA6028C4B908B28220B7 /* Pods-GraffitiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +668,7 @@
 		};
 		5A47B45D1F014D640054FA98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A23DD0637CEBEC71F29CB4F4 /* Pods-GraffitiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GraffitiUITests/Info.plist;
@@ -477,6 +682,7 @@
 		};
 		5A47B45E1F014D640054FA98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75F2ECC734F3D40D1A9B860 /* Pods-GraffitiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GraffitiUITests/Info.plist;
@@ -507,6 +713,7 @@
 				5A47B4581F014D640054FA98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A47B4591F014D640054FA98 /* Build configuration list for PBXNativeTarget "GraffitiTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +722,7 @@
 				5A47B45B1F014D640054FA98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A47B45C1F014D640054FA98 /* Build configuration list for PBXNativeTarget "GraffitiUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +731,7 @@
 				5A47B45E1F014D640054FA98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
